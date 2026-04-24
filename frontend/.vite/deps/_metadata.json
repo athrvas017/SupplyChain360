@@ -1,0 +1,100 @@
+{
+  "hash": "a25256b6",
+  "configHash": "5d5ad9f8",
+  "lockfileHash": "b4d14d82",
+  "browserHash": "bbd53fd2",
+  "optimized": {
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "82f96031",
+      "needsInterop": false
+    },
+    "d3": {
+      "src": "../../node_modules/d3/src/index.js",
+      "file": "d3.js",
+      "fileHash": "3c079577",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "d4775dde",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "3c35197b",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0a5f4149",
+      "needsInterop": true
+    },
+    "react-globe.gl": {
+      "src": "../../node_modules/react-globe.gl/dist/react-globe.gl.mjs",
+      "file": "react-globe__gl.js",
+      "fileHash": "fd0480f5",
+      "needsInterop": false
+    },
+    "react-leaflet": {
+      "src": "../../node_modules/react-leaflet/lib/index.js",
+      "file": "react-leaflet.js",
+      "fileHash": "d2e1948b",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "0531457c",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "791c2871",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "181019d8",
+      "needsInterop": true
+    },
+    "recharts": {
+      "src": "../../node_modules/recharts/es6/index.js",
+      "file": "recharts.js",
+      "fileHash": "a240ea44",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "diverging-Drz5T5jX": {
+      "file": "diverging-Drz5T5jX.js",
+      "isDynamicEntry": false
+    },
+    "jsx-runtime-ybYHiFrN": {
+      "file": "jsx-runtime-ybYHiFrN.js",
+      "isDynamicEntry": false
+    },
+    "pointer-CMIKRqT6": {
+      "file": "pointer-CMIKRqT6.js",
+      "isDynamicEntry": false
+    },
+    "quantize-CsOVkTR9": {
+      "file": "quantize-CsOVkTR9.js",
+      "isDynamicEntry": false
+    },
+    "react-B6J-hxuQ": {
+      "file": "react-B6J-hxuQ.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-BBtRa12N": {
+      "file": "react-dom-BBtRa12N.js",
+      "isDynamicEntry": false
+    }
+  }
+}

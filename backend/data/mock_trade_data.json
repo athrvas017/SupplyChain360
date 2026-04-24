@@ -1,0 +1,1487 @@
+{
+  "_comment": "Realistic mock trade data \u00e2\u20ac\u201d multi-tier supply chains for semiconductors, automotive, pharma, textiles",
+  "companies": {
+    "APPLE INC": {
+      "country": "US",
+      "city": "Cupertino",
+      "lat": 37.32,
+      "lng": -122.03,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "TAIWAN SEMICONDUCTOR MFG CO LTD",
+          "shipper_country": "TW",
+          "hs_code": "854231",
+          "hs_description": "Processors and controllers",
+          "weight_kg": 45000,
+          "port_of_loading": "Kaohsiung",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 847
+        },
+        {
+          "shipper": "SAMSUNG ELECTRONICS CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "854232",
+          "hs_description": "Memory chips",
+          "weight_kg": 32000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 312
+        },
+        {
+          "shipper": "HON HAI PRECISION INDUSTRY",
+          "shipper_country": "CN",
+          "hs_code": "8471",
+          "hs_description": "Automatic data processing machines",
+          "weight_kg": 890000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 1245
+        },
+        {
+          "shipper": "LG DISPLAY CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "9013",
+          "hs_description": "Liquid crystal display panels",
+          "weight_kg": 67000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 203
+        },
+        {
+          "shipper": "MURATA MANUFACTURING CO LTD",
+          "shipper_country": "JP",
+          "hs_code": "8532",
+          "hs_description": "Electrical capacitors",
+          "weight_kg": 12000,
+          "port_of_loading": "Yokohama",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 156
+        },
+        {
+          "shipper": "SAMSUNG SDI CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "850760",
+          "hs_description": "Lithium-ion batteries",
+          "weight_kg": 78000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 189
+        },
+        {
+          "shipper": "CORNING INCORPORATED",
+          "shipper_country": "JP",
+          "hs_code": "7007",
+          "hs_description": "Safety glass",
+          "weight_kg": 34000,
+          "port_of_loading": "Tokyo",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 95
+        },
+        {
+          "shipper": "LUXSHARE PRECISION INDUSTRY CO",
+          "shipper_country": "CN",
+          "hs_code": "8544",
+          "hs_description": "Cables and connectors",
+          "weight_kg": 23000,
+          "port_of_loading": "Shenzhen",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 178
+        }
+      ]
+    },
+    "TAIWAN SEMICONDUCTOR MFG CO LTD": {
+      "country": "TW",
+      "city": "Hsinchu",
+      "lat": 24.8,
+      "lng": 120.97,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "SHIN-ETSU CHEMICAL CO LTD",
+          "shipper_country": "JP",
+          "hs_code": "280461",
+          "hs_description": "Silicon wafers >=99.99%",
+          "weight_kg": 89000,
+          "port_of_loading": "Yokohama",
+          "port_of_unlading": "Kaohsiung",
+          "shipment_count": 234
+        },
+        {
+          "shipper": "SUMCO CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "280461",
+          "hs_description": "Silicon wafers",
+          "weight_kg": 67000,
+          "port_of_loading": "Tokyo",
+          "port_of_unlading": "Kaohsiung",
+          "shipment_count": 189
+        },
+        {
+          "shipper": "ASML HOLDING NV",
+          "shipper_country": "NL",
+          "hs_code": "8486",
+          "hs_description": "Semiconductor manufacturing equipment",
+          "weight_kg": 12000,
+          "port_of_loading": "Rotterdam",
+          "port_of_unlading": "Kaohsiung",
+          "shipment_count": 47
+        },
+        {
+          "shipper": "TOKYO ELECTRON LTD",
+          "shipper_country": "JP",
+          "hs_code": "8486",
+          "hs_description": "Semiconductor equipment",
+          "weight_kg": 8000,
+          "port_of_loading": "Tokyo",
+          "port_of_unlading": "Kaohsiung",
+          "shipment_count": 82
+        },
+        {
+          "shipper": "ENTEGRIS INC",
+          "shipper_country": "US",
+          "hs_code": "3818",
+          "hs_description": "Chemical elements doped for electronics",
+          "weight_kg": 5600,
+          "port_of_loading": "Boston",
+          "port_of_unlading": "Kaohsiung",
+          "shipment_count": 123
+        },
+        {
+          "shipper": "JSR CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "3907",
+          "hs_description": "Photoresists and polymers",
+          "weight_kg": 3400,
+          "port_of_loading": "Yokohama",
+          "port_of_unlading": "Kaohsiung",
+          "shipment_count": 98
+        }
+      ]
+    },
+    "SAMSUNG ELECTRONICS CO LTD": {
+      "country": "KR",
+      "city": "Suwon",
+      "lat": 37.26,
+      "lng": 127.03,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "SK SILTRON CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "280461",
+          "hs_description": "Silicon wafers",
+          "weight_kg": 45000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Busan",
+          "shipment_count": 178
+        },
+        {
+          "shipper": "ASML HOLDING NV",
+          "shipper_country": "NL",
+          "hs_code": "8486",
+          "hs_description": "EUV lithography systems",
+          "weight_kg": 6000,
+          "port_of_loading": "Rotterdam",
+          "port_of_unlading": "Busan",
+          "shipment_count": 23
+        },
+        {
+          "shipper": "LAM RESEARCH CORPORATION",
+          "shipper_country": "US",
+          "hs_code": "8486",
+          "hs_description": "Etch and deposition equipment",
+          "weight_kg": 9500,
+          "port_of_loading": "San Francisco",
+          "port_of_unlading": "Busan",
+          "shipment_count": 56
+        },
+        {
+          "shipper": "MERCK KGAA",
+          "shipper_country": "DE",
+          "hs_code": "3818",
+          "hs_description": "Specialty chemicals for semiconductors",
+          "weight_kg": 2300,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Busan",
+          "shipment_count": 87
+        }
+      ]
+    },
+    "HON HAI PRECISION INDUSTRY": {
+      "country": "CN",
+      "city": "Shenzhen",
+      "lat": 22.54,
+      "lng": 114.06,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "TAIWAN SEMICONDUCTOR MFG CO LTD",
+          "shipper_country": "TW",
+          "hs_code": "854231",
+          "hs_description": "Processors",
+          "weight_kg": 34000,
+          "port_of_loading": "Kaohsiung",
+          "port_of_unlading": "Shenzhen",
+          "shipment_count": 567
+        },
+        {
+          "shipper": "INNOLUX CORPORATION",
+          "shipper_country": "TW",
+          "hs_code": "9013",
+          "hs_description": "LCD panels",
+          "weight_kg": 89000,
+          "port_of_loading": "Kaohsiung",
+          "port_of_unlading": "Shenzhen",
+          "shipment_count": 345
+        },
+        {
+          "shipper": "UNIMICRON TECHNOLOGY CORP",
+          "shipper_country": "TW",
+          "hs_code": "8534",
+          "hs_description": "Printed circuit boards",
+          "weight_kg": 56000,
+          "port_of_loading": "Kaohsiung",
+          "port_of_unlading": "Shenzhen",
+          "shipment_count": 423
+        },
+        {
+          "shipper": "NIDEC CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "8501",
+          "hs_description": "Electric motors",
+          "weight_kg": 23000,
+          "port_of_loading": "Osaka",
+          "port_of_unlading": "Shenzhen",
+          "shipment_count": 189
+        }
+      ]
+    },
+    "SHIN-ETSU CHEMICAL CO LTD": {
+      "country": "JP",
+      "city": "Tokyo",
+      "lat": 35.68,
+      "lng": 139.76,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "WACKER CHEMIE AG",
+          "shipper_country": "DE",
+          "hs_code": "2804",
+          "hs_description": "Polycrystalline silicon",
+          "weight_kg": 120000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Yokohama",
+          "shipment_count": 156
+        },
+        {
+          "shipper": "HEMLOCK SEMICONDUCTOR LLC",
+          "shipper_country": "US",
+          "hs_code": "2804",
+          "hs_description": "Polysilicon",
+          "weight_kg": 89000,
+          "port_of_loading": "Detroit",
+          "port_of_unlading": "Yokohama",
+          "shipment_count": 98
+        },
+        {
+          "shipper": "TOKUYAMA CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "2804",
+          "hs_description": "High purity polysilicon",
+          "weight_kg": 67000,
+          "port_of_loading": "Tokuyama",
+          "port_of_unlading": "Yokohama",
+          "shipment_count": 134
+        }
+      ]
+    },
+    "ASML HOLDING NV": {
+      "country": "NL",
+      "city": "Veldhoven",
+      "lat": 51.42,
+      "lng": 5.48,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "CARL ZEISS SMT GMBH",
+          "shipper_country": "DE",
+          "hs_code": "9001",
+          "hs_description": "Optical lenses and mirrors for EUV",
+          "weight_kg": 4500,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Rotterdam",
+          "shipment_count": 34
+        },
+        {
+          "shipper": "TRUMPF SE + CO KG",
+          "shipper_country": "DE",
+          "hs_code": "8504",
+          "hs_description": "High-power laser sources",
+          "weight_kg": 6700,
+          "port_of_loading": "Stuttgart",
+          "port_of_unlading": "Rotterdam",
+          "shipment_count": 28
+        },
+        {
+          "shipper": "CYMER INC",
+          "shipper_country": "US",
+          "hs_code": "9013",
+          "hs_description": "Laser light sources for lithography",
+          "weight_kg": 3200,
+          "port_of_loading": "San Diego",
+          "port_of_unlading": "Rotterdam",
+          "shipment_count": 45
+        }
+      ]
+    },
+    "SAMSUNG SDI CO LTD": {
+      "country": "KR",
+      "city": "Yongin",
+      "lat": 37.24,
+      "lng": 127.18,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "UMICORE SA",
+          "shipper_country": "BE",
+          "hs_code": "8105",
+          "hs_description": "Cobalt cathode materials",
+          "weight_kg": 45000,
+          "port_of_loading": "Antwerp",
+          "port_of_unlading": "Busan",
+          "shipment_count": 134
+        },
+        {
+          "shipper": "ALBEMARLE CORPORATION",
+          "shipper_country": "CL",
+          "hs_code": "2825",
+          "hs_description": "Lithium hydroxide",
+          "weight_kg": 89000,
+          "port_of_loading": "Antofagasta",
+          "port_of_unlading": "Busan",
+          "shipment_count": 98
+        },
+        {
+          "shipper": "POSCO CHEMICAL CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "7408",
+          "hs_description": "Copper foil for batteries",
+          "weight_kg": 34000,
+          "port_of_loading": "Pohang",
+          "port_of_unlading": "Busan",
+          "shipment_count": 167
+        },
+        {
+          "shipper": "SHANSHAN TECHNOLOGY CO LTD",
+          "shipper_country": "CN",
+          "hs_code": "2804",
+          "hs_description": "Anode graphite materials",
+          "weight_kg": 56000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Busan",
+          "shipment_count": 145
+        }
+      ]
+    },
+    "UMICORE SA": {
+      "country": "BE",
+      "city": "Brussels",
+      "lat": 50.85,
+      "lng": 4.35,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "GLENCORE PLC",
+          "shipper_country": "CD",
+          "hs_code": "8105",
+          "hs_description": "Cobalt raw ore/concentrate",
+          "weight_kg": 230000,
+          "port_of_loading": "Dar es Salaam",
+          "port_of_unlading": "Antwerp",
+          "shipment_count": 89
+        },
+        {
+          "shipper": "CHINA MOLYBDENUM CO LTD",
+          "shipper_country": "CD",
+          "hs_code": "8105",
+          "hs_description": "Cobalt concentrate",
+          "weight_kg": 178000,
+          "port_of_loading": "Dar es Salaam",
+          "port_of_unlading": "Antwerp",
+          "shipment_count": 67
+        },
+        {
+          "shipper": "VALE SA",
+          "shipper_country": "BR",
+          "hs_code": "2603",
+          "hs_description": "Nickel-cobalt mixed sulfide",
+          "weight_kg": 145000,
+          "port_of_loading": "Santos",
+          "port_of_unlading": "Antwerp",
+          "shipment_count": 56
+        }
+      ]
+    },
+    "ALBEMARLE CORPORATION": {
+      "country": "CL",
+      "city": "Antofagasta",
+      "lat": -23.65,
+      "lng": -70.4,
+      "role": "raw_supplier",
+      "shipments": [
+        {
+          "shipper": "SOCIEDAD QUIMICA Y MINERA",
+          "shipper_country": "CL",
+          "hs_code": "2825",
+          "hs_description": "Lithium brine concentrate",
+          "weight_kg": 560000,
+          "port_of_loading": "Antofagasta",
+          "port_of_unlading": "Antofagasta",
+          "shipment_count": 234
+        },
+        {
+          "shipper": "PILBARA MINERALS LTD",
+          "shipper_country": "AU",
+          "hs_code": "2825",
+          "hs_description": "Spodumene lithium ore",
+          "weight_kg": 890000,
+          "port_of_loading": "Port Hedland",
+          "port_of_unlading": "Antofagasta",
+          "shipment_count": 167
+        }
+      ]
+    },
+    "WACKER CHEMIE AG": {
+      "country": "DE",
+      "city": "Munich",
+      "lat": 48.14,
+      "lng": 11.58,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "HOSHINE SILICON INDUSTRY CO",
+          "shipper_country": "CN",
+          "hs_code": "2804",
+          "hs_description": "Metallurgical grade silicon",
+          "weight_kg": 340000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Hamburg",
+          "shipment_count": 123
+        },
+        {
+          "shipper": "FERROGLOBE PLC",
+          "shipper_country": "FR",
+          "hs_code": "2804",
+          "hs_description": "Silicon metal",
+          "weight_kg": 180000,
+          "port_of_loading": "Le Havre",
+          "port_of_unlading": "Hamburg",
+          "shipment_count": 87
+        }
+      ]
+    },
+    "TESLA INC": {
+      "country": "US",
+      "city": "Austin",
+      "lat": 30.27,
+      "lng": -97.74,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "PANASONIC ENERGY CO LTD",
+          "shipper_country": "JP",
+          "hs_code": "850760",
+          "hs_description": "Lithium-ion battery cells",
+          "weight_kg": 567000,
+          "port_of_loading": "Osaka",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 456
+        },
+        {
+          "shipper": "LG ENERGY SOLUTION LTD",
+          "shipper_country": "KR",
+          "hs_code": "850760",
+          "hs_description": "Battery cells and modules",
+          "weight_kg": 345000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 289
+        },
+        {
+          "shipper": "CATL CO LTD",
+          "shipper_country": "CN",
+          "hs_code": "850760",
+          "hs_description": "LFP battery packs",
+          "weight_kg": 890000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 567
+        },
+        {
+          "shipper": "NIPPON STEEL CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "7210",
+          "hs_description": "Steel sheets for body panels",
+          "weight_kg": 1200000,
+          "port_of_loading": "Nagoya",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 234
+        },
+        {
+          "shipper": "CONTINENTAL AG",
+          "shipper_country": "DE",
+          "hs_code": "4011",
+          "hs_description": "Pneumatic tires",
+          "weight_kg": 450000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Houston",
+          "shipment_count": 178
+        },
+        {
+          "shipper": "APTIV PLC",
+          "shipper_country": "IE",
+          "hs_code": "8544",
+          "hs_description": "Wiring harnesses",
+          "weight_kg": 67000,
+          "port_of_loading": "Dublin",
+          "port_of_unlading": "Houston",
+          "shipment_count": 234
+        },
+        {
+          "shipper": "NVIDIA CORPORATION",
+          "shipper_country": "TW",
+          "hs_code": "854231",
+          "hs_description": "AI/FSD processors",
+          "weight_kg": 2300,
+          "port_of_loading": "Kaohsiung",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 89
+        }
+      ]
+    },
+    "CATL CO LTD": {
+      "country": "CN",
+      "city": "Ningde",
+      "lat": 26.66,
+      "lng": 119.55,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "GANFENG LITHIUM CO LTD",
+          "shipper_country": "CN",
+          "hs_code": "2825",
+          "hs_description": "Lithium carbonate",
+          "weight_kg": 890000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Ningde",
+          "shipment_count": 345
+        },
+        {
+          "shipper": "HUAYOU COBALT CO LTD",
+          "shipper_country": "CN",
+          "hs_code": "8105",
+          "hs_description": "Cobalt sulfate",
+          "weight_kg": 230000,
+          "port_of_loading": "Ningbo",
+          "port_of_unlading": "Ningde",
+          "shipment_count": 198
+        },
+        {
+          "shipper": "BTR NEW MATERIAL GROUP CO",
+          "shipper_country": "CN",
+          "hs_code": "2804",
+          "hs_description": "Anode materials (graphite)",
+          "weight_kg": 340000,
+          "port_of_loading": "Shenzhen",
+          "port_of_unlading": "Ningde",
+          "shipment_count": 267
+        },
+        {
+          "shipper": "SUMITOMO METAL MINING CO LTD",
+          "shipper_country": "JP",
+          "hs_code": "8105",
+          "hs_description": "NCA cathode precursors",
+          "weight_kg": 120000,
+          "port_of_loading": "Tokyo",
+          "port_of_unlading": "Ningde",
+          "shipment_count": 134
+        }
+      ]
+    },
+    "HUAYOU COBALT CO LTD": {
+      "country": "CN",
+      "city": "Jiaxing",
+      "lat": 30.77,
+      "lng": 120.76,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "CHEMAF SA",
+          "shipper_country": "CD",
+          "hs_code": "8105",
+          "hs_description": "Cobalt hydroxide",
+          "weight_kg": 560000,
+          "port_of_loading": "Dar es Salaam",
+          "port_of_unlading": "Ningbo",
+          "shipment_count": 145
+        },
+        {
+          "shipper": "GECAMINES SA",
+          "shipper_country": "CD",
+          "hs_code": "8105",
+          "hs_description": "Cobalt raw ore",
+          "weight_kg": 780000,
+          "port_of_loading": "Durban",
+          "port_of_unlading": "Ningbo",
+          "shipment_count": 89
+        }
+      ]
+    },
+    "PFIZER INC": {
+      "country": "US",
+      "city": "New York",
+      "lat": 40.71,
+      "lng": -74.01,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "LONZA GROUP AG",
+          "shipper_country": "CH",
+          "hs_code": "2941",
+          "hs_description": "Active pharmaceutical ingredients",
+          "weight_kg": 12000,
+          "port_of_loading": "Basel",
+          "port_of_unlading": "Newark",
+          "shipment_count": 234
+        },
+        {
+          "shipper": "SIEGFRIED HOLDING AG",
+          "shipper_country": "CH",
+          "hs_code": "2939",
+          "hs_description": "Alkaloid intermediates",
+          "weight_kg": 8900,
+          "port_of_loading": "Basel",
+          "port_of_unlading": "Newark",
+          "shipment_count": 167
+        },
+        {
+          "shipper": "DIVI'S LABORATORIES LTD",
+          "shipper_country": "IN",
+          "hs_code": "2941",
+          "hs_description": "Generic API bulk drugs",
+          "weight_kg": 34000,
+          "port_of_loading": "Visakhapatnam",
+          "port_of_unlading": "Newark",
+          "shipment_count": 289
+        },
+        {
+          "shipper": "ROQUETTE FRERES SA",
+          "shipper_country": "FR",
+          "hs_code": "3505",
+          "hs_description": "Pharmaceutical excipients",
+          "weight_kg": 56000,
+          "port_of_loading": "Dunkirk",
+          "port_of_unlading": "Newark",
+          "shipment_count": 145
+        },
+        {
+          "shipper": "GERRESHEIMER AG",
+          "shipper_country": "DE",
+          "hs_code": "3923",
+          "hs_description": "Pharma glass vials and packaging",
+          "weight_kg": 89000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Newark",
+          "shipment_count": 198
+        }
+      ]
+    },
+    "DIVI'S LABORATORIES LTD": {
+      "country": "IN",
+      "city": "Hyderabad",
+      "lat": 17.39,
+      "lng": 78.49,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "ZHEJIANG JIUZHOU PHARMACEUTICAL",
+          "shipper_country": "CN",
+          "hs_code": "2941",
+          "hs_description": "API intermediates",
+          "weight_kg": 45000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Chennai",
+          "shipment_count": 156
+        },
+        {
+          "shipper": "BAYER AG",
+          "shipper_country": "DE",
+          "hs_code": "2939",
+          "hs_description": "Chemical intermediates",
+          "weight_kg": 23000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Chennai",
+          "shipment_count": 89
+        }
+      ]
+    },
+    "NIKE INC": {
+      "country": "US",
+      "city": "Beaverton",
+      "lat": 45.49,
+      "lng": -122.8,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "CHANGSHIN INC",
+          "shipper_country": "VN",
+          "hs_code": "6204",
+          "hs_description": "Footwear and apparel",
+          "weight_kg": 890000,
+          "port_of_loading": "Ho Chi Minh City",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 567
+        },
+        {
+          "shipper": "POH KONG CORPORATION",
+          "shipper_country": "VN",
+          "hs_code": "6203",
+          "hs_description": "Sports apparel",
+          "weight_kg": 450000,
+          "port_of_loading": "Ho Chi Minh City",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 345
+        },
+        {
+          "shipper": "FENG TAY ENTERPRISE CO LTD",
+          "shipper_country": "VN",
+          "hs_code": "6204",
+          "hs_description": "Athletic footwear",
+          "weight_kg": 670000,
+          "port_of_loading": "Ho Chi Minh City",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 456
+        },
+        {
+          "shipper": "SHENZHOU INTERNATIONAL GROUP",
+          "shipper_country": "CN",
+          "hs_code": "6203",
+          "hs_description": "Knitted sportswear",
+          "weight_kg": 340000,
+          "port_of_loading": "Ningbo",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 289
+        }
+      ]
+    },
+    "CHANGSHIN INC": {
+      "country": "VN",
+      "city": "Ho Chi Minh City",
+      "lat": 10.82,
+      "lng": 106.63,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "FORMOSA PLASTICS CORPORATION",
+          "shipper_country": "TW",
+          "hs_code": "3901",
+          "hs_description": "EVA foam and polyethylene",
+          "weight_kg": 230000,
+          "port_of_loading": "Kaohsiung",
+          "port_of_unlading": "Ho Chi Minh City",
+          "shipment_count": 189
+        },
+        {
+          "shipper": "TORAY INDUSTRIES INC",
+          "shipper_country": "JP",
+          "hs_code": "5205",
+          "hs_description": "Synthetic yarns",
+          "weight_kg": 120000,
+          "port_of_loading": "Osaka",
+          "port_of_unlading": "Ho Chi Minh City",
+          "shipment_count": 145
+        },
+        {
+          "shipper": "JIANGSU HENGLI CHEMICAL FIBRE",
+          "shipper_country": "CN",
+          "hs_code": "5205",
+          "hs_description": "Polyester yarn",
+          "weight_kg": 340000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Ho Chi Minh City",
+          "shipment_count": 234
+        }
+      ]
+    },
+    "GLENCORE PLC": {
+      "country": "CD",
+      "city": "Kolwezi",
+      "lat": -10.72,
+      "lng": 25.47,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "GECAMINES SA": {
+      "country": "CD",
+      "city": "Lubumbashi",
+      "lat": -11.66,
+      "lng": 27.48,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "CHEMAF SA": {
+      "country": "CD",
+      "city": "Lubumbashi",
+      "lat": -11.68,
+      "lng": 27.49,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "PILBARA MINERALS LTD": {
+      "country": "AU",
+      "city": "Perth",
+      "lat": -31.95,
+      "lng": 115.86,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "SOCIEDAD QUIMICA Y MINERA": {
+      "country": "CL",
+      "city": "Santiago",
+      "lat": -33.45,
+      "lng": -70.67,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "HEMLOCK SEMICONDUCTOR LLC": {
+      "country": "US",
+      "city": "Hemlock",
+      "lat": 43.42,
+      "lng": -84.23,
+      "role": "manufacturer",
+      "shipments": []
+    },
+    "HOSHINE SILICON INDUSTRY CO": {
+      "country": "CN",
+      "city": "Leshan",
+      "lat": 29.57,
+      "lng": 103.77,
+      "role": "manufacturer",
+      "shipments": []
+    },
+    "FERROGLOBE PLC": {
+      "country": "FR",
+      "city": "Paris",
+      "lat": 48.86,
+      "lng": 2.35,
+      "role": "manufacturer",
+      "shipments": []
+    },
+    "CARL ZEISS SMT GMBH": {
+      "country": "DE",
+      "city": "Oberkochen",
+      "lat": 48.79,
+      "lng": 10.1,
+      "role": "manufacturer",
+      "shipments": []
+    },
+    "TRUMPF SE + CO KG": {
+      "country": "DE",
+      "city": "Ditzingen",
+      "lat": 48.83,
+      "lng": 9.07,
+      "role": "manufacturer",
+      "shipments": []
+    },
+    "LG ENERGY SOLUTION LTD": {
+      "country": "KR",
+      "city": "Seoul",
+      "lat": 37.57,
+      "lng": 126.98,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "UMICORE SA",
+          "shipper_country": "BE",
+          "hs_code": "8105",
+          "hs_description": "Cathode materials",
+          "weight_kg": 67000,
+          "port_of_loading": "Antwerp",
+          "port_of_unlading": "Busan",
+          "shipment_count": 145
+        },
+        {
+          "shipper": "GANFENG LITHIUM CO LTD",
+          "shipper_country": "CN",
+          "hs_code": "2825",
+          "hs_description": "Lithium hydroxide",
+          "weight_kg": 120000,
+          "port_of_loading": "Shanghai",
+          "port_of_unlading": "Busan",
+          "shipment_count": 189
+        }
+      ]
+    },
+    "GANFENG LITHIUM CO LTD": {
+      "country": "CN",
+      "city": "Xinyu",
+      "lat": 27.8,
+      "lng": 114.93,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "PILBARA MINERALS LTD",
+          "shipper_country": "AU",
+          "hs_code": "2825",
+          "hs_description": "Spodumene concentrate",
+          "weight_kg": 1200000,
+          "port_of_loading": "Port Hedland",
+          "port_of_unlading": "Shanghai",
+          "shipment_count": 234
+        },
+        {
+          "shipper": "MINERAL RESOURCES LIMITED",
+          "shipper_country": "AU",
+          "hs_code": "2825",
+          "hs_description": "Lithium spodumene",
+          "weight_kg": 890000,
+          "port_of_loading": "Esperance",
+          "port_of_unlading": "Shanghai",
+          "shipment_count": 178
+        }
+      ]
+    },
+    "MINERAL RESOURCES LIMITED": {
+      "country": "AU",
+      "city": "Perth",
+      "lat": -31.96,
+      "lng": 115.87,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "SUMCO CORPORATION": {
+      "country": "JP",
+      "city": "Tokyo",
+      "lat": 35.69,
+      "lng": 139.77,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "WACKER CHEMIE AG",
+          "shipper_country": "DE",
+          "hs_code": "2804",
+          "hs_description": "Polycrystalline silicon",
+          "weight_kg": 78000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Tokyo",
+          "shipment_count": 112
+        }
+      ]
+    },
+    "PANASONIC ENERGY CO LTD": {
+      "country": "JP",
+      "city": "Osaka",
+      "lat": 34.69,
+      "lng": 135.5,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "SUMITOMO METAL MINING CO LTD",
+          "shipper_country": "JP",
+          "hs_code": "8105",
+          "hs_description": "NCA cathode materials",
+          "weight_kg": 89000,
+          "port_of_loading": "Tokyo",
+          "port_of_unlading": "Osaka",
+          "shipment_count": 198
+        },
+        {
+          "shipper": "ALBEMARLE CORPORATION",
+          "shipper_country": "CL",
+          "hs_code": "2825",
+          "hs_description": "Lithium hydroxide",
+          "weight_kg": 67000,
+          "port_of_loading": "Antofagasta",
+          "port_of_unlading": "Osaka",
+          "shipment_count": 145
+        }
+      ]
+    },
+    "SK SILTRON CO LTD": {
+      "country": "KR",
+      "city": "Gumi",
+      "lat": 36.12,
+      "lng": 128.34,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "WACKER CHEMIE AG",
+          "shipper_country": "DE",
+          "hs_code": "2804",
+          "hs_description": "Polysilicon",
+          "weight_kg": 56000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Busan",
+          "shipment_count": 89
+        }
+      ]
+    },
+    "LONZA GROUP AG": {
+      "country": "CH",
+      "city": "Basel",
+      "lat": 47.56,
+      "lng": 7.59,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "BASF SE",
+          "shipper_country": "DE",
+          "hs_code": "2941",
+          "hs_description": "Chemical intermediates for APIs",
+          "weight_kg": 12000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Basel",
+          "shipment_count": 145
+        }
+      ]
+    },
+    "CHINA MOLYBDENUM CO LTD": {
+      "country": "CD",
+      "city": "Tenke",
+      "lat": -10.6,
+      "lng": 26.12,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "VALE SA": {
+      "country": "BR",
+      "city": "Rio de Janeiro",
+      "lat": -22.91,
+      "lng": -43.17,
+      "role": "raw_supplier",
+      "shipments": []
+    },
+    "GENERAL MOTORS COMPANY": {
+      "country": "US",
+      "city": "Detroit",
+      "lat": 42.33,
+      "lng": -83.04,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "GM KOREA COMPANY",
+          "shipper_country": "KR",
+          "hs_code": "870322",
+          "hs_description": "Passenger motor vehicles, compact",
+          "weight_kg": 4500000,
+          "port_of_loading": "Incheon",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 850
+        },
+        {
+          "shipper": "GENERAL MOTORS DE MEXICO",
+          "shipper_country": "MX",
+          "hs_code": "870323",
+          "hs_description": "Passenger motor vehicles, SUV",
+          "weight_kg": 8500000,
+          "port_of_loading": "Veracruz",
+          "port_of_unlading": "Houston",
+          "shipment_count": 1200
+        },
+        {
+          "shipper": "GENERAL MOTORS DE MEXICO",
+          "shipper_country": "MX",
+          "hs_code": "870431",
+          "hs_description": "Light pickup trucks",
+          "weight_kg": 9200000,
+          "port_of_loading": "Veracruz",
+          "port_of_unlading": "Houston",
+          "shipment_count": 1500
+        },
+        {
+          "shipper": "ISUZU MOTORS LIMITED",
+          "shipper_country": "JP",
+          "hs_code": "870600",
+          "hs_description": "Chassis fitted with engines",
+          "weight_kg": 1500000,
+          "port_of_loading": "Yokohama",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 350
+        }
+      ]
+    },
+    "GM KOREA COMPANY": {
+      "country": "KR",
+      "city": "Incheon",
+      "lat": 37.49,
+      "lng": 126.7,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "LG INNOTEK CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "854430",
+          "hs_description": "Wiring harnesses",
+          "weight_kg": 120000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Incheon",
+          "shipment_count": 210
+        },
+        {
+          "shipper": "HL MANDO CORPORATION",
+          "shipper_country": "KR",
+          "hs_code": "870880",
+          "hs_description": "Suspension components",
+          "weight_kg": 340000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Incheon",
+          "shipment_count": 420
+        }
+      ]
+    },
+    "GENERAL MOTORS DE MEXICO": {
+      "country": "MX",
+      "city": "Silao",
+      "lat": 20.94,
+      "lng": -101.42,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "NIDEC CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "850153",
+          "hs_description": "Traction motors",
+          "weight_kg": 540000,
+          "port_of_loading": "Osaka",
+          "port_of_unlading": "Manzanillo",
+          "shipment_count": 320
+        },
+        {
+          "shipper": "BOSCH MOBILITY",
+          "shipper_country": "DE",
+          "hs_code": "840734",
+          "hs_description": "Engine components",
+          "weight_kg": 210000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Veracruz",
+          "shipment_count": 150
+        }
+      ]
+    },
+    "TOYOTA MOTOR NORTH AMERICA INC.": {
+      "country": "US",
+      "city": "Plano",
+      "lat": 33.01,
+      "lng": -96.69,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "TOYOTA MOTOR CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "870323",
+          "hs_description": "Passenger vehicles",
+          "weight_kg": 12000000,
+          "port_of_loading": "Nagoya",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 2100
+        },
+        {
+          "shipper": "TOYOTA MOTOR CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "870340",
+          "hs_description": "HEV passenger vehicles",
+          "weight_kg": 8500000,
+          "port_of_loading": "Nagoya",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 1400
+        },
+        {
+          "shipper": "TOYOTA MOTOR CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "840734",
+          "hs_description": "Engine assemblies",
+          "weight_kg": 450000,
+          "port_of_loading": "Nagoya",
+          "port_of_unlading": "Seattle",
+          "shipment_count": 450
+        },
+        {
+          "shipper": "DENSO CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "870899",
+          "hs_description": "Automotive parts and accessories",
+          "weight_kg": 650000,
+          "port_of_loading": "Nagoya",
+          "port_of_unlading": "Los Angeles",
+          "shipment_count": 520
+        },
+        {
+          "shipper": "AISIN CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "870850",
+          "hs_description": "Drive axles",
+          "weight_kg": 320000,
+          "port_of_loading": "Nagoya",
+          "port_of_unlading": "Long Beach",
+          "shipment_count": 280
+        }
+      ]
+    },
+    "TOYOTA MOTOR CORPORATION": {
+      "country": "JP",
+      "city": "Toyota",
+      "lat": 35.08,
+      "lng": 137.15,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "NIPPON STEEL CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "7210",
+          "hs_description": "Steel sheets",
+          "weight_kg": 2500000,
+          "port_of_loading": "Nagoya",
+          "port_of_unlading": "Nagoya",
+          "shipment_count": 890
+        },
+        {
+          "shipper": "PANASONIC ENERGY CO LTD",
+          "shipper_country": "JP",
+          "hs_code": "850760",
+          "hs_description": "Lithium-ion cells",
+          "weight_kg": 850000,
+          "port_of_loading": "Osaka",
+          "port_of_unlading": "Nagoya",
+          "shipment_count": 410
+        }
+      ]
+    },
+    "DENSO CORPORATION": {
+      "country": "JP",
+      "city": "Kariya",
+      "lat": 34.99,
+      "lng": 137.0,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "RENESAS ELECTRONICS CORP",
+          "shipper_country": "JP",
+          "hs_code": "854231",
+          "hs_description": "Automotive MCUs",
+          "weight_kg": 12000,
+          "port_of_loading": "Tokyo",
+          "port_of_unlading": "Nagoya",
+          "shipment_count": 140
+        }
+      ]
+    },
+    "AISIN CORPORATION": {
+      "country": "JP",
+      "city": "Kariya",
+      "lat": 34.99,
+      "lng": 137.0,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "JFE STEEL CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "7225",
+          "hs_description": "Specialty steel",
+          "weight_kg": 450000,
+          "port_of_loading": "Yokohama",
+          "port_of_unlading": "Nagoya",
+          "shipment_count": 250
+        }
+      ]
+    },
+    "BMW MANUFACTURING CO. LLC": {
+      "country": "US",
+      "city": "Spartanburg",
+      "lat": 34.89,
+      "lng": -81.97,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "BMW AG",
+          "shipper_country": "DE",
+          "hs_code": "870324",
+          "hs_description": "Luxury passenger vehicles",
+          "weight_kg": 5400000,
+          "port_of_loading": "Bremerhaven",
+          "port_of_unlading": "Charleston",
+          "shipment_count": 920
+        },
+        {
+          "shipper": "BMW AG",
+          "shipper_country": "DE",
+          "hs_code": "870360",
+          "hs_description": "PHEV luxury vehicles",
+          "weight_kg": 3200000,
+          "port_of_loading": "Bremerhaven",
+          "port_of_unlading": "Charleston",
+          "shipment_count": 540
+        },
+        {
+          "shipper": "ZF FRIEDRICHSHAFEN AG",
+          "shipper_country": "DE",
+          "hs_code": "870850",
+          "hs_description": "Drive axles and diffs",
+          "weight_kg": 850000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Charleston",
+          "shipment_count": 410
+        },
+        {
+          "shipper": "YAZAKI CORPORATION",
+          "shipper_country": "JP",
+          "hs_code": "854430",
+          "hs_description": "Ignition wiring sets",
+          "weight_kg": 150000,
+          "port_of_loading": "Tokyo",
+          "port_of_unlading": "Charleston",
+          "shipment_count": 280
+        },
+        {
+          "shipper": "LEONI AG",
+          "shipper_country": "DE",
+          "hs_code": "854430",
+          "hs_description": "Wiring harnesses",
+          "weight_kg": 120000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Charleston",
+          "shipment_count": 200
+        }
+      ]
+    },
+    "BMW AG": {
+      "country": "DE",
+      "city": "Munich",
+      "lat": 48.13,
+      "lng": 11.58,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "BOSCH MOBILITY",
+          "shipper_country": "DE",
+          "hs_code": "840734",
+          "hs_description": "Engine parts",
+          "weight_kg": 750000,
+          "port_of_loading": "Stuttgart",
+          "port_of_unlading": "Munich",
+          "shipment_count": 450
+        },
+        {
+          "shipper": "SAMSUNG SDI CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "850760",
+          "hs_description": "Battery cells",
+          "weight_kg": 1200000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Hamburg",
+          "shipment_count": 380
+        }
+      ]
+    },
+    "ZF FRIEDRICHSHAFEN AG": {
+      "country": "DE",
+      "city": "Friedrichshafen",
+      "lat": 47.65,
+      "lng": 9.48,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "THYSSENKRUPP STEEL",
+          "shipper_country": "DE",
+          "hs_code": "7225",
+          "hs_description": "Steel alloys",
+          "weight_kg": 950000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Friedrichshafen",
+          "shipment_count": 310
+        }
+      ]
+    },
+    "YAZAKI CORPORATION": {
+      "country": "JP",
+      "city": "Tokyo",
+      "lat": 35.68,
+      "lng": 139.76,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "FURUKAWA ELECTRIC CO LTD",
+          "shipper_country": "JP",
+          "hs_code": "7408",
+          "hs_description": "Copper wire",
+          "weight_kg": 420000,
+          "port_of_loading": "Yokohama",
+          "port_of_unlading": "Tokyo",
+          "shipment_count": 270
+        }
+      ]
+    },
+    "LEONI AG": {
+      "country": "DE",
+      "city": "Nuremberg",
+      "lat": 49.45,
+      "lng": 11.07,
+      "role": "manufacturer",
+      "shipments": [
+        {
+          "shipper": "AURUBIS AG",
+          "shipper_country": "DE",
+          "hs_code": "7408",
+          "hs_description": "Copper wire rod",
+          "weight_kg": 560000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Nuremberg",
+          "shipment_count": 320
+        }
+      ]
+    },
+    "LUCID GROUP INC.": {
+      "country": "US",
+      "city": "Newark",
+      "lat": 37.52,
+      "lng": -122.02,
+      "role": "importer",
+      "shipments": [
+        {
+          "shipper": "SAMSUNG SDI CO LTD",
+          "shipper_country": "KR",
+          "hs_code": "850760",
+          "hs_description": "Lithium-ion cells",
+          "weight_kg": 1500000,
+          "port_of_loading": "Busan",
+          "port_of_unlading": "Oakland",
+          "shipment_count": 480
+        },
+        {
+          "shipper": "CONTINENTAL AG",
+          "shipper_country": "DE",
+          "hs_code": "870880",
+          "hs_description": "Air suspension absorbers",
+          "weight_kg": 250000,
+          "port_of_loading": "Hamburg",
+          "port_of_unlading": "Oakland",
+          "shipment_count": 180
+        },
+        {
+          "shipper": "BORGWARNER INC.",
+          "shipper_country": "US",
+          "hs_code": "850153",
+          "hs_description": "AC multi-phase motors",
+          "weight_kg": 380000,
+          "port_of_loading": "Detroit",
+          "port_of_unlading": "Oakland",
+          "shipment_count": 220
+        }
+      ]
+    }
+  },
+  "sanctioned_entities": [
+    "HOSHINE SILICON INDUSTRY CO",
+    "GECAMINES SA"
+  ]
+}
